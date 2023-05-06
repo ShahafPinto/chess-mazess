@@ -6,6 +6,7 @@ import {ActionButtons} from './ActionButtons/ActionButtons';
 import {Board} from './Board/Board';
 import {SolvedPuzzles} from './SolvedPuzzles/SolvedPuzzles';
 import {boardColorClass} from './boardColors/boardColors';
+import { Music } from './BackgroundMusic/Music';
 
 import './boardColors/boardColors.css';
 
@@ -36,6 +37,7 @@ const App = observer(() => {
         <Board />
       </div>
       <ActionButtons />
+      <Music />
       <SolvedPuzzles />
       <div className="mb-4 flex justify-center">
         <div className="w-36 mt-2">
